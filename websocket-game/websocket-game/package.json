@@ -1,0 +1,27 @@
+{
+  "name": "websocket-game",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js",
+    "stop": "taskkill -F -IM node.exe"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.2",
+    "ioredis": "^5.4.1",
+    "socket.io": "^4.8.1",
+    "socket.io-redis": "^5.4.0",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/socket.io-redis": "^1.0.27",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.4.2"
+  }
+}
